@@ -2,7 +2,7 @@ const url = new URL(location.href);
 const movieId = url.searchParams.get("id")
 const movieTitle = url.searchParams.get("title")
 
-const APILINK = 'https://moviepediaa-six.vercel.app/api/v1/reviews/';
+const APILINK = 'https://moviepediaa.vercel.app/api/v1/reviews/';
 
 const main = document.getElementById("section");
 const title = document.getElementById("title");
